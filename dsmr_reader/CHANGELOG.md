@@ -1,5 +1,27 @@
 # Changelog
 
+## 0.2.0
+
+- Update to DSMR-reader v4.13.0 (amd64 & arm64v8 only)
+- Simplified configuration with dropdowns
+- NOTE: Check DATALOGGER_MODE & DATALOGGER_INPUT_METHOD configurations after updating
+
+## 0.1.3
+
+- Update base images (PostgreSQL 12.6 client working on arm32v7, arm32v6 is deprecated)
+
+## 0.1.2
+
+- Fixed PostgreSQL 12.6 client version (arm32 is deprecated and not updated)
+
+## 0.1.1
+
+- Added script to help with commandline actions
+
+## 0.1.0
+
+- Update to DSMR-reader v4.12.0
+
 ## 0.0.4
 
 - Extended configuration options
